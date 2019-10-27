@@ -1,5 +1,9 @@
 def find_element_index(array, value_to_find)
-array.find(value_to_find)
+value_to_find)
+  found_index = nil
+  counter = 0
+ while counter < array.size do
+    counter += 1
 
   end
     
