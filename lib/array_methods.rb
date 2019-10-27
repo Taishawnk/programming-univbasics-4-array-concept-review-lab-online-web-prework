@@ -1,10 +1,10 @@
 def find_element_index(array, value_to_find)
-
-  found_index = nil
+  value_to_find = nil
   counter = 0
- while counter < array.size do
+ if counter < array.size do
     counter += 1
-
+    end
+ array.find(value_to_find)
   end
     
 
